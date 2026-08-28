@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { LayoutDashboard, AlertTriangle, ClipboardList, BarChart3 } from "lucide-react";
 
 const navItems = [
@@ -13,6 +13,7 @@ const navItems = [
 
 export default function Sidebar() {
   const pathname = usePathname();
+  const router = useRouter();
 
   return (
     <aside className="w-64 h-screen bg-zinc-950 text-zinc-100 flex flex-col border-r border-zinc-800">
@@ -42,8 +43,17 @@ export default function Sidebar() {
         })}
       </nav>
 
-      <div className="px-6 py-4 border-t border-zinc-800 text-xs text-zinc-500">
-        Logged in as Admin
+      <div className="px-6 py-4 border-t border-zinc-800 flex items-center justify-between">
+        <span className="text-xs text-zinc-500">Logged in as Admin</span>
+        <button
+          onClick={() => {
+            localStorage.removeItem("saferoute_admin_session");
+            router.push("/login");
+          }}
+          className="text-xs text-zinc-500 hover:text-white transition-colors"
+        >
+          Logout
+        </button>
       </div>
     </aside>
   );
