@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
+import LayoutShell from "@/components/LayoutShell";
 
 export const metadata: Metadata = {
   title: "SafeRoute Admin Dashboard",
@@ -15,12 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <div className="flex">
-          <Sidebar />
-          <main className="flex-1 bg-zinc-50 min-h-screen p-8">
-            {children}
-          </main>
-        </div>
+        <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
   );

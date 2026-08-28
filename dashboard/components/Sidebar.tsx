@@ -42,8 +42,17 @@ export default function Sidebar() {
         })}
       </nav>
 
-      <div className="px-6 py-4 border-t border-zinc-800 text-xs text-zinc-500">
-        Logged in as Admin
+      <div className="px-6 py-4 border-t border-zinc-800 flex items-center justify-between">
+        <span className="text-xs text-zinc-500">Logged in as Admin</span>
+        <button
+          onClick={() => {
+            localStorage.removeItem("saferoute_admin_session");
+            window.location.href = "/login";
+          }}
+          className="text-xs text-zinc-500 hover:text-white transition-colors"
+        >
+          Logout
+        </button>
       </div>
     </aside>
   );
