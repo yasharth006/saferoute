@@ -10,9 +10,9 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const loggedIn = localStorage.getItem("saferoute_admin_session") === "true";
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read on mount, not a cascading update
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- re-check on every route change, not just mount
     setIsLoggedIn(loggedIn);
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     if (isLoggedIn === null) return;
