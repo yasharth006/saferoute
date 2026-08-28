@@ -1,0 +1,5 @@
+[
+  { "zoneId": "zone_1", "name": "MG Road", "lat": 12.9716, "lng": 77.5946, "score": 62, "riskLevel": "medium" },
+  { "zoneId": "zone_2", "name": "Market Area", "lat": 12.9352, "lng": 77.6146, "score": 34, "riskLevel": "high" },
+  { "zoneId": "zone_3", "name": "Residential Block C", "lat": 12.9784, "lng": 77.6408, "score": 85, "riskLevel": "low" }
+]

@@ -4,11 +4,11 @@ on:
   push:
     branches: [main]
     paths:
-      - 'dashboard/**'
+      - "dashboard/**"
   pull_request:
     branches: [main]
     paths:
-      - 'dashboard/**'
+      - "dashboard/**"
 
 jobs:
   build:
@@ -21,6 +21,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
+      - run: npm install
       - run: npm run lint
       - run: npm run build
