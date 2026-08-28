@@ -6,22 +6,29 @@ import { usePathname, useRouter } from "next/navigation";
 export default function AuthGuard({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
-  const [checked, setChecked] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean | null>(null);
 
   useEffect(() => {
-    const isLoggedIn = localStorage.getItem("saferoute_admin_session") === "true";
+    const loggedIn = localStorage.getItem("saferoute_admin_session") === "true";
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read on mount, not a cascading update
+    setIsLoggedIn(loggedIn);
+  }, []);
+
+  useEffect(() => {
+    if (isLoggedIn === null) return;
 
     if (!isLoggedIn && pathname !== "/login") {
       router.push("/login");
     } else if (isLoggedIn && pathname === "/login") {
       router.push("/");
-    } else {
-      setChecked(true);
     }
-  }, [pathname, router]);
+  }, [isLoggedIn, pathname, router]);
 
-  // Avoid flashing protected content before the check completes
-  if (!checked && pathname !== "/login") {
+  const stillChecking = isLoggedIn === null;
+  const stillRedirecting =
+    (!isLoggedIn && pathname !== "/login") || (isLoggedIn && pathname === "/login");
+
+  if (stillChecking || stillRedirecting) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-zinc-50">
         <p className="text-sm text-zinc-400">Loading...</p>

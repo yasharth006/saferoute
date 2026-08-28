@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { LayoutDashboard, AlertTriangle, ClipboardList, BarChart3 } from "lucide-react";
 
 const navItems = [
@@ -13,6 +13,7 @@ const navItems = [
 
 export default function Sidebar() {
   const pathname = usePathname();
+  const router = useRouter();
 
   return (
     <aside className="w-64 h-screen bg-zinc-950 text-zinc-100 flex flex-col border-r border-zinc-800">
@@ -47,7 +48,7 @@ export default function Sidebar() {
         <button
           onClick={() => {
             localStorage.removeItem("saferoute_admin_session");
-            window.location.href = "/login";
+            router.push("/login");
           }}
           className="text-xs text-zinc-500 hover:text-white transition-colors"
         >
