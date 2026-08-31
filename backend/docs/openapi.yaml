@@ -1,0 +1,65 @@
+openapi: 3.0.3
+info:
+  title: SafeRoute Review 1 API
+  version: 1.0.0
+  description: Anonymous incident reporting, evidence hashing, and admin status updates.
+servers:
+  - url: http://localhost:3000
+paths:
+  /auth/reporter-session:
+    post:
+      summary: Issue an anonymous reporter session
+      responses:
+        '201': { description: Anonymous session issued }
+  /auth/admin/login:
+    post:
+      summary: Log in as the configured admin
+      requestBody:
+        required: true
+        content: { application/json: { schema: { $ref: '#/components/schemas/LoginRequest' } } }
+      responses: { '200': { description: JWT issued }, '401': { description: Invalid credentials } }
+  /complaints:
+    post:
+      summary: Submit a complaint
+      parameters: [{ $ref: '#/components/parameters/ReporterSession' }]
+      requestBody:
+        required: true
+        content: { application/json: { schema: { $ref: '#/components/schemas/ComplaintRequest' } } }
+      responses: { '201': { description: Complaint created }, '400': { description: Validation error }, '401': { description: Invalid session } }
+  /complaints/{trackingId}:
+    get:
+      summary: Public complaint status lookup
+      parameters: [{ name: trackingId, in: path, required: true, schema: { type: string }, example: SR-A1B2C3D4E5F6 }]
+      responses: { '200': { description: Public complaint and status history }, '404': { description: Not found } }
+  /complaints/{id}/evidence:
+    post:
+      summary: Upload evidence and record a server-calculated SHA-256 hash
+      parameters: [{ $ref: '#/components/parameters/ComplaintId' }]
+      requestBody:
+        required: true
+        content: { multipart/form-data: { schema: { type: object, required: [evidence], properties: { evidence: { type: string, format: binary } } } } }
+      responses: { '201': { description: Evidence recorded }, '400': { description: File missing }, '404': { description: Complaint not found } }
+  /complaints/{id}/evidence/{evidenceId}/verify:
+    get:
+      summary: Re-hash stored evidence and verify integrity
+      parameters: [{ $ref: '#/components/parameters/ComplaintId' }, { name: evidenceId, in: path, required: true, schema: { type: string, format: uuid } }]
+      responses: { '200': { description: Hash verification result }, '404': { description: Evidence not found }, '410': { description: Stored file missing } }
+  /complaints/{id}/status:
+    patch:
+      summary: Update status and write a status log (admin only)
+      security: [{ bearerAuth: [] }]
+      parameters: [{ $ref: '#/components/parameters/ComplaintId' }]
+      requestBody:
+        required: true
+        content: { application/json: { schema: { $ref: '#/components/schemas/StatusRequest' } } }
+      responses: { '200': { description: Complaint updated }, '401': { description: Admin JWT required }, '404': { description: Complaint not found } }
+components:
+  parameters:
+    ComplaintId: { name: id, in: path, required: true, schema: { type: string, format: uuid } }
+    ReporterSession: { name: x-reporter-session, in: header, required: true, schema: { type: string } }
+  securitySchemes:
+    bearerAuth: { type: http, scheme: bearer, bearerFormat: JWT }
+  schemas:
+    LoginRequest: { type: object, required: [username, password], properties: { username: { type: string }, password: { type: string, format: password } } }
+    ComplaintRequest: { type: object, required: [category, description, severity], properties: { category: { type: string }, description: { type: string, minLength: 10 }, severity: { type: string, enum: [low, medium, high, critical] } } }
+    StatusRequest: { type: object, required: [status], properties: { status: { type: string, enum: [submitted, acknowledged, under_review, escalated, resolved, closed] }, note: { type: string } } }
