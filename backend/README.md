@@ -29,3 +29,12 @@ curl http://localhost:3000/complaints/SR-TRACKINGID
 ```
 
 See `docs/openapi.yaml` for the complete contract, including admin login, evidence upload/verification, and status updates.
+# SafeRoute Backend
+
+```powershell
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+```
+
+The API reads `ml-service/data/processed/locality_risk_scores.csv` once at startup. Set `SAFEROUTE_RISK_CSV` to override the path and `SAFEROUTE_ALLOWED_ORIGIN` to change the dashboard origin.
