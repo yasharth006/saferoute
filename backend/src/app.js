@@ -1,0 +1,2 @@
+const express = require('express'); const morgan = require('morgan'); const auth = require('./routes/auth'); const complaints = require('./routes/complaints'); const { notFound, errorHandler } = require('./middleware/error');
+const app = express(); app.use(morgan('dev')); app.use(express.json({ limit: '1mb' })); app.get('/health', (req, res) => res.json({ status: 'ok' })); app.use('/auth', auth); app.use('/complaints', complaints); app.use(notFound); app.use(errorHandler); module.exports = app;
