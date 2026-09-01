@@ -1,0 +1,8 @@
+# Domain-informed assumptions for a prototype; not ground truth.
+murder_count: 10.0
+rape_count: 8.0
+gangrape_count: 9.0
+robbery_count: 4.0
+theft_count: 1.0
+assault_count: 5.0
+sexual_harassment_count: 4.0
