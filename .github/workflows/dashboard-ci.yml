@@ -3,24 +3,39 @@ name: Dashboard CI
 on:
   push:
     branches: [main]
-    paths:
-      - "dashboard/**"
   pull_request:
     branches: [main]
-    paths:
-      - "dashboard/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./dashboard
     steps:
       - uses: actions/checkout@v4
+
+      - name: Check for dashboard changes
+        id: changes
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            dashboard:
+              - 'dashboard/**'
+
       - uses: actions/setup-node@v4
+        if: steps.changes.outputs.dashboard == 'true'
         with:
           node-version: 20
-      - run: npm install
-      - run: npm run lint
-      - run: npm run build
+
+      - name: Install dependencies
+        if: steps.changes.outputs.dashboard == 'true'
+        working-directory: ./dashboard
+        run: npm install
+
+      - name: Lint
+        if: steps.changes.outputs.dashboard == 'true'
+        working-directory: ./dashboard
+        run: npm run lint
+
+      - name: Build
+        if: steps.changes.outputs.dashboard == 'true'
+        working-directory: ./dashboard
+        run: npm run build
