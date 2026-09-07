@@ -1,0 +1,42 @@
+[
+    {
+      "id": "inc_001",
+      "category": "Harassment",
+      "description": "Reported near bus stop on MG Road",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "severity": "medium",
+      "status": "open",
+      "reportedAt": "2026-08-20T14:30:00Z"
+    },
+    {
+      "id": "inc_002",
+      "category": "Theft",
+      "description": "Phone snatching reported near market",
+      "lat": 12.9352,
+      "lng": 77.6146,
+      "severity": "high",
+      "status": "in_progress",
+      "reportedAt": "2026-08-21T09:15:00Z"
+    },
+    {
+      "id": "inc_003",
+      "category": "Poor Lighting",
+      "description": "Streetlight not working for 2 weeks",
+      "lat": 12.9784,
+      "lng": 77.6408,
+      "severity": "low",
+      "status": "resolved",
+      "reportedAt": "2026-08-18T18:00:00Z"
+    },
+    {
+      "id": "inc_004",
+      "category": "Harassment",
+      "description": "Group loitering near college gate",
+      "lat": 12.9611,
+      "lng": 77.6387,
+      "severity": "medium",
+      "status": "open",
+      "reportedAt": "2026-08-22T20:45:00Z"
+    }
+  ]

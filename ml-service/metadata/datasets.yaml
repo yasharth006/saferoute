@@ -1,0 +1,24 @@
+crime.csv:
+  region: Delhi
+  source_type: real
+  is_synthetic: false
+  incident_level: false
+  temporal_resolution: historical_aggregate
+  coordinate_status: geographic
+  provenance: Real historical aggregate locality-level crime data; source CRS is not formally documented.
+noida.csv:
+  region: Noida
+  source_type: dummy
+  is_synthetic: true
+  incident_level: false
+  temporal_resolution: historical_aggregate
+  coordinate_status: synthetic
+  provenance: Synthetic/dummy data from the original Safe-Path-Recommender project.
+gurgaon.csv:
+  region: Gurgaon
+  source_type: dummy
+  is_synthetic: true
+  incident_level: false
+  temporal_resolution: historical_aggregate
+  coordinate_status: synthetic
+  provenance: Synthetic/dummy data from the original Safe-Path-Recommender project.

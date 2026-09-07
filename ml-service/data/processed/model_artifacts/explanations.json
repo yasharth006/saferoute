@@ -1,0 +1,1437 @@
+[
+  {
+    "location": "ADRASH NAGAR",
+    "risk_score": 0.4876506024096386,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "ALIPUR",
+    "risk_score": 0.41385542168674694,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "AMAN VIHAR",
+    "risk_score": 0.7313253012048193,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "AMAR COLONY",
+    "risk_score": 0.8518072289156626,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "ANAND PARBAT",
+    "risk_score": 0.7213855421686748,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "ANANDVIHAR",
+    "risk_score": 0.7112951807228917,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "ANANDVIHAR",
+    "risk_score": 0.7158132530120482,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "ASHOK VIHAR",
+    "risk_score": 0.5367469879518073,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "BABA HARI DAS NAGAR",
+    "risk_score": 0.388855421686747,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BADAR PUR",
+    "risk_score": 0.5448795180722892,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BARA HINDU RAO",
+    "risk_score": 0.5195783132530121,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "BARAKHAMBA ROAD",
+    "risk_score": 0.8518072289156627,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BAWANA",
+    "risk_score": 0.5257530120481928,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BAWANA",
+    "risk_score": 0.5266566265060242,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BEGUM PUR",
+    "risk_score": 0.3536144578313253,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BHAJANPURI",
+    "risk_score": 0.45753012048192776,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "BHALSWA DAIRY",
+    "risk_score": 0.3786144578313253,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "BHARAT NAGAR",
+    "risk_score": 0.4644578313253013,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "BINDAPUR",
+    "risk_score": 0.5489457831325302,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "BINDAPUR",
+    "risk_score": 0.5378012048192771,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "BURARI",
+    "risk_score": 0.5599397590361447,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "CHANAKYAPURI",
+    "risk_score": 0.5313253012048192,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "CHANDNI MAHAL",
+    "risk_score": 0.45692771084337347,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "CHHAWLA",
+    "risk_score": 0.4019578313253012,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "CHITRANJAN PARK",
+    "risk_score": 0.4614457831325301,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "CIVIL LINES",
+    "risk_score": 0.7210843373493977,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "CONNAUGHT PLACE",
+    "risk_score": 0.7003012048192772,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "D.B.G ROAD",
+    "risk_score": 0.5900602409638555,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "DABRI",
+    "risk_score": 0.6795180722891567,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "DARYA GANJ",
+    "risk_score": 0.2335843373493976,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "DEFENCE COLONY",
+    "risk_score": 0.3602409638554217,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "DELHI CANTT",
+    "risk_score": 0.1710843373493976,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "DWARKA NORTH",
+    "risk_score": 0.17379518072289155,
+    "risk_level": "LOW",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "DWARKA SEC-23",
+    "risk_score": 0.2927710843373494,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "DWARKA SOUTH",
+    "risk_score": 0.23795180722891568,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "FARASH BAZAR",
+    "risk_score": 0.4921686746987952,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "FATEHPUR BERI",
+    "risk_score": 0.5340361445783133,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "G.T.B. ENCLAVE",
+    "risk_score": 0.2713855421686747,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "GANDHI NAGAR",
+    "risk_score": 0.45090361445783134,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "GEETA COLONY",
+    "risk_score": 0.4268072289156627,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "GHAZIPUR",
+    "risk_score": 0.2932228915662651,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "GOKULPURI",
+    "risk_score": 0.4310240963855422,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "GOVIND PURI",
+    "risk_score": 0.5774096385542168,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "GREATER KAILASH",
+    "risk_score": 0.24879518072289158,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "GULABIBAGH",
+    "risk_score": 0.3846385542168675,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "H. N. DIN",
+    "risk_score": 0.2280120481927711,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "HARI NAGAR",
+    "risk_score": 0.5365963855421687,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "HARSH VIHAR",
+    "risk_score": 0.4602409638554217,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "HAUZ KHAS",
+    "risk_score": 0.40602409638554215,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "HAUZQAZI",
+    "risk_score": 0.45843373493975903,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "I.P. ESTATE",
+    "risk_score": 0.5620481927710844,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "INDERPURI",
+    "risk_score": 0.480421686746988,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "JAFFARPUR KALAN",
+    "risk_score": 0.4789156626506025,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "JAGATPURI",
+    "risk_score": 0.8438253012048194,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "JAHANGIR PURI",
+    "risk_score": 0.5843373493975903,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "JAMA MASJID",
+    "risk_score": 0.363855421686747,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "JAMIA NAGAR",
+    "risk_score": 0.4993975903614458,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "JANAK PURI",
+    "risk_score": 0.6864457831325301,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "JYOTI NAGAR",
+    "risk_score": 0.4813253012048193,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KALKAJI",
+    "risk_score": 0.240210843373494,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "KALKAJI",
+    "risk_score": 0.23147590361445786,
+    "risk_level": "LOW",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "KALYANPURI",
+    "risk_score": 0.5066265060240964,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KAMLA MARKET",
+    "risk_score": 0.2948795180722892,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KANJHAWALA",
+    "risk_score": 0.25813253012048193,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KAPASHERA",
+    "risk_score": 0.2280120481927711,
+    "risk_level": "LOW",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KARAWAL NAGAR",
+    "risk_score": 0.46656626506024096,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "KAROL BAGH",
+    "risk_score": 0.46506024096385545,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KASHMERE GATE",
+    "risk_score": 0.5115963855421687,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KASHMERE GATE",
+    "risk_score": 0.5143072289156626,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KESHAV PURAM",
+    "risk_score": 0.7617469879518073,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KHAJURIKHAS",
+    "risk_score": 0.27228915662650605,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "KHYALA",
+    "risk_score": 0.8743975903614458,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KIRTI NAGAR",
+    "risk_score": 0.469277108433735,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KN KATJU MARG",
+    "risk_score": 0.252710843373494,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "KOTALA MUBARAK PUR",
+    "risk_score": 0.7626506024096386,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "KRISHNA NAGAR",
+    "risk_score": 0.42048192771084336,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "LAHORI GATE",
+    "risk_score": 0.4195783132530121,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "LAJPAT NAGAR",
+    "risk_score": 0.2849397590361446,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "LODHI COLONY",
+    "risk_score": 0.2786144578313253,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "MADHUVIHAR",
+    "risk_score": 0.6647590361445783,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MAHENDRA PARK",
+    "risk_score": 0.8234939759036145,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MALVIYA NAGAR",
+    "risk_score": 0.8780120481927712,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MANDAWALI",
+    "risk_score": 0.5384036144578314,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "MANDIR MARG",
+    "risk_score": 0.7524096385542169,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MANGOLPURI",
+    "risk_score": 0.4147590361445783,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MANSAROVAR PARK",
+    "risk_score": 0.6527108433734939,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MAURICE NAGAR",
+    "risk_score": 0.5804216867469879,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "MAURYA ENCLAVE",
+    "risk_score": 0.5256024096385542,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "MAYA PURI",
+    "risk_score": 0.480421686746988,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MAYURVIHAR",
+    "risk_score": 0.3385542168674699,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "MEHRAULI",
+    "risk_score": 0.405421686746988,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MIANWALI NAGAR",
+    "risk_score": 0.5680722891566266,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "MODEL TOWN",
+    "risk_score": 0.4566265060240964,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "MOTI NAGAR",
+    "risk_score": 0.8075301204819277,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "MUKHERJI NAGAR",
+    "risk_score": 0.646987951807229,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "MUNDKA",
+    "risk_score": 0.1766566265060241,
+    "risk_level": "LOW",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NABI KARIM",
+    "risk_score": 0.6391566265060241,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NAJAFGARH",
+    "risk_score": 0.7078313253012049,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NANDNAGARI",
+    "risk_score": 0.7873493975903616,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NANGLOI",
+    "risk_score": 0.8638554216867471,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NARAINA",
+    "risk_score": 0.36626506024096384,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "NARELA",
+    "risk_score": 0.3891566265060241,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NEB SARAI",
+    "risk_score": 0.6126506024096386,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "NEW ASHOK NAGAR",
+    "risk_score": 0.8843373493975905,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "NEW FRIENDS COLONY",
+    "risk_score": 0.5825301204819276,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "NEW USMANPUR",
+    "risk_score": 0.5179216867469879,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "NIHAL VIHAR",
+    "risk_score": 0.4924698795180723,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "OKHLA",
+    "risk_score": 0.5216867469879518,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "PAHARGANJ",
+    "risk_score": 0.5257530120481927,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "PALAM VILLAGE",
+    "risk_score": 0.46987951807228917,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "PANDAV NAGAR",
+    "risk_score": 0.6183734939759037,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "PARLIAMENT STREET",
+    "risk_score": 0.3737951807228916,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "PARSHAD NAGAR",
+    "risk_score": 0.4608433734939759,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PASCHIM VIHAR",
+    "risk_score": 0.6144578313253013,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PATEL NAGAR",
+    "risk_score": 0.45843373493975903,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PRASHANT VIHAR",
+    "risk_score": 0.6487951807228917,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PRASHANT VIHAR",
+    "risk_score": 0.5325301204819277,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PREETVIHAR",
+    "risk_score": 0.5539156626506024,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PULPRAHLAD PUR",
+    "risk_score": 0.49246987951807236,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "PUNJABI BAGH",
+    "risk_score": 0.8993975903614458,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "RAJINDER NAGAR",
+    "risk_score": 0.5599397590361446,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "RAJOURI GARDEN",
+    "risk_score": 0.592921686746988,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "RAJOURI GARDEN",
+    "risk_score": 0.5853915662650603,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "RANHOLA",
+    "risk_score": 0.6165662650602409,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "RANI BAGH",
+    "risk_score": 0.6493975903614458,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "RANJIT NAGAR",
+    "risk_score": 0.4259036144578313,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "ROHINI NORTH",
+    "risk_score": 0.5126506024096386,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "ROHINI SOUTH",
+    "risk_score": 0.7590361445783133,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "ROOP NAGAR",
+    "risk_score": 0.7337349397590363,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SADAR BAZAR",
+    "risk_score": 0.3990963855421687,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SAFDARJUNG ENCLAVE",
+    "risk_score": 0.298644578313253,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SAFDARJUNG ENCLAVE",
+    "risk_score": 0.2856927710843374,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SAGARPUR",
+    "risk_score": 0.3060240963855422,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "SAKET",
+    "risk_score": 0.31807228915662655,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SAMAYPURBADLI",
+    "risk_score": 0.2557228915662651,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SANGAM VIHAR",
+    "risk_score": 0.2635542168674699,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "SARAI ROHILLA",
+    "risk_score": 0.42048192771084336,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density"
+    ]
+  },
+  {
+    "location": "SARITA VIHAR",
+    "risk_score": 0.2760542168674699,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "SARITA VIHAR",
+    "risk_score": 0.25316265060240967,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "SAROJINI NAGAR",
+    "risk_score": 0.43644578313253013,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SEELAMPUR",
+    "risk_score": 0.6115963855421688,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "SEEMAPURI",
+    "risk_score": 0.2849397590361446,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "SHAHBAD DAIRY",
+    "risk_score": 0.21746987951807228,
+    "risk_level": "LOW",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SHAHDARA",
+    "risk_score": 0.4490963855421687,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SHAKARPUR",
+    "risk_score": 0.35240963855421686,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "SHALIMAR BAGH",
+    "risk_score": 0.6489457831325302,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SONIA VIHAR",
+    "risk_score": 0.5329819277108433,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "SOUTH CAMPUS",
+    "risk_score": 0.42861445783132535,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SUBHASH PLACE",
+    "risk_score": 0.8463855421686748,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SUBZIMANDI",
+    "risk_score": 0.7349397590361447,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "SULTAN PURI",
+    "risk_score": 0.7445783132530122,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SUNLIGHT COLONY",
+    "risk_score": 0.8972891566265061,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "SWARUP NAGAR",
+    "risk_score": 0.5653614457831325,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "TILAK MARG",
+    "risk_score": 0.436144578313253,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "TILAK NAGAR",
+    "risk_score": 0.7870481927710844,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "TIMARPUR",
+    "risk_score": 0.6272590361445783,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "TUGLAK ROAD",
+    "risk_score": 0.5837349397590361,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "UTTAM NAGAR",
+    "risk_score": 0.8605421686746989,
+    "risk_level": "VERY_HIGH",
+    "drivers": [
+      "high crime density",
+      "high severity-weighted burden",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "VASANT KUNJ NORTH",
+    "risk_score": 0.5295180722891566,
+    "risk_level": "HIGH",
+    "drivers": [
+      "high severity-weighted burden"
+    ]
+  },
+  {
+    "location": "VASANT KUNJ SOUTH",
+    "risk_score": 0.26234939759036147,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "VASANT VIHAR",
+    "risk_score": 0.2716867469879518,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "VIJAY VIHAR",
+    "risk_score": 0.29006024096385546,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "lower relative historical burden"
+    ]
+  },
+  {
+    "location": "VIKAS PURI",
+    "risk_score": 0.3614457831325302,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "VIVEKVIHAR",
+    "risk_score": 0.26626506024096386,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "WELCOME",
+    "risk_score": 0.4271084337349398,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "high crime density",
+      "unusual local crime profile"
+    ]
+  },
+  {
+    "location": "ZAFRABAD",
+    "risk_score": 0.2748493975903615,
+    "risk_level": "MEDIUM",
+    "drivers": [
+      "unusual local crime profile"
+    ]
+  }
+]

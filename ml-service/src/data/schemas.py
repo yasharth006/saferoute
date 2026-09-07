@@ -1,0 +1,2 @@
+CANONICAL_COLUMNS = ["region", "location", "latitude", "longitude", "area", "murder_count", "rape_count", "gangrape_count", "robbery_count", "theft_count", "assault_count", "sexual_harassment_count", "total_crime", "crime_density", "source_file", "source_type", "is_synthetic"]
+NUMERIC_COLUMNS = [c for c in CANONICAL_COLUMNS if c not in {"region", "location", "source_file", "source_type", "is_synthetic"}]
