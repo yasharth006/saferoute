@@ -1,0 +1,11 @@
+const path = require('path'); const fs = require('fs'); const multer = require('multer'); const router = require('express').Router(); const controller = require('../controllers/complaintController'); const { requireAdmin } = require('../middleware/auth'); const { requireReporterSession } = require('../middleware/reporterSession'); const env = require('../config/env');
+fs.mkdirSync(env.uploadDir, { recursive: true });
+const upload = multer({ storage: multer.diskStorage({ destination: env.uploadDir, filename: (req, file, cb) => cb(null, `${Date.now()}-${Math.random().toString(36).slice(2)}${path.extname(file.originalname)}`) }), limits: { fileSize: 10 * 1024 * 1024 } });
+const asyncRoute = (fn) => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(next);
+const validateComplaintId = (req, res, next) => /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(req.params.id) ? next() : res.status(400).json({ error: 'Complaint id must be a UUID' });
+router.post('/', requireReporterSession, asyncRoute(controller.create));
+router.get('/:trackingId', asyncRoute(controller.lookup));
+router.post('/:id/evidence', validateComplaintId, upload.single('evidence'), asyncRoute(controller.uploadEvidence));
+router.get('/:id/evidence/:evidenceId/verify', validateComplaintId, asyncRoute(controller.verifyEvidence));
+router.patch('/:id/status', validateComplaintId, requireAdmin, asyncRoute(controller.updateStatus));
+module.exports = router;
